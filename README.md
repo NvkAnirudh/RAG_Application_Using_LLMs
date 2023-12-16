@@ -1,9 +1,9 @@
 # Retrieval Augmented Generation (RAG) Application using LLMs
 
-### Overview
+## Overview
 Welcome to the Retrieval Augmented Generation (RAG) project! This repository contains the implementation of advanced retrieval methods to enhance the integration of large language models (LLMs) with proprietary data. The primary goal is to improve the coherence and performance of the RAG pipeline through two advanced retrieval methods: Sentence-window retrieval and Auto-merging retrieval.
 
-### Files
+## Files
 **Medical_Cost_Prediction.pdf**: This is the pdf used to query information, it contains details about one of my previous projects - Medical Cost Prediction using Machine Learning for AWS Deployment.
 
 **RAG_Pipeline.ipynb**: Jupyter notebook that encompasses the implementation of the basic RAG pipeline, which serves as the baseline for comparing and evaluating the advanced RAG techniques.
@@ -18,7 +18,7 @@ Welcome to the Retrieval Augmented Generation (RAG) project! This repository con
 
 **questions.txt**: A text file containing evaluation questions. These questions are used for assessing the performance of the RAG pipeline, based on the RAG triad: Context Relevance, Groundedness, and Answer Relevance.
 
-### Evaluating and Experiment Tracking
+## Evaluating and Experiment Tracking
 To evaluate and iteratively improve the RAG pipeline's performance, follow these steps:
 
 Run each notebook in the project structure and focus on TruLens Evaluation and the parameters used.
@@ -27,7 +27,7 @@ Sentence-Window Retrieval - Concentrate on the window size, which indicates the 
 
 Auto-Merging Retrieval - Focus on the depth of the tree; the greater the number of layers, the fewer tokens in the leaf nodes (only nodes are used in constructing a VectorStore Index), resulting in lower costs for the Language Model (LLM).
 
-### Contribution Guidelines
+## Contribution Guidelines
 If you wish to contribute to the project, please follow these guidelines:
 
 1. Fork the repository.
